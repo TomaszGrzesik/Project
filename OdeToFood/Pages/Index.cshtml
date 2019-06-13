@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="alert alert-success" role="alert">
+    <h4 class="alert-heading" align="center">Hello!</h4>
+    <p>Please click one of the buttons :)
+</div>
+
+<div class="row" align="center" >
+    <div class="col-sm-2">
+        <a href="/Restaurants/List" class="btn btn-info" role="button">Edit</a>
+    </div>
+    <div class="col-sm-2">
+        <a href="/Restaurants/ClientRestaurants" class="btn btn-info" role="button">Table list</a>
+    </div>
+    <div class="col-sm-2">
+        <a href="/About" class="btn btn-info" role="button">About</a>
+    </div>
+    <div class="col-sm-2">
+    <a href="/Contact" class="btn btn-info" role="button">Contact</a>
+    </div>
+</div>
